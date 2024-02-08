@@ -1,0 +1,29 @@
+.about-us{
+    height: 80vh;
+    width: 100%;
+    background: rgb(178, 81, 233);
+}
+.flex-container{
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.left .btn{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgb(178, 81, 233);
+    background: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+.right img{
+    height: 300px;
+    width: 300px;
+}
