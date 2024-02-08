@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Protest Riot', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height:100vh;
+    max-width:100%;
+}
+
+.header header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+    background-color: blue;
+    color:white;
+    height:70px;
+    font-size: 20px;
+}
+.header header .logo a{
+    color:white;
+}
+.header header .navbar a{
+    color:white;
+    margin-left:10px;
+}
+
+.header header .account{
+    display:flex;
+    
+}
+
+.header header .account button{
+    background-color:red;
+    padding:1rem;
+    margin-left:12px;
+    color:white;
+}
 .about-us{
     height: 80vh;
     width: 100%;
